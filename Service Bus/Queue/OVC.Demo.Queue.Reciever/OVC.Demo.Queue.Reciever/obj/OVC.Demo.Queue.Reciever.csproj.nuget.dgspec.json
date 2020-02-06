@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\PingFungYin\\source\\repos\\OVC.Demo.Queue.Reciever\\OVC.Demo.Queue.Reciever\\OVC.Demo.Queue.Reciever.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\PingFungYin\\source\\repos\\OVC.Demo.Queue.Reciever\\OVC.Demo.Queue.Reciever\\OVC.Demo.Queue.Reciever.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PingFungYin\\source\\repos\\OVC.Demo.Queue.Reciever\\OVC.Demo.Queue.Reciever\\OVC.Demo.Queue.Reciever.csproj",
+        "projectName": "OVC.Demo.Queue.Reciever",
+        "projectPath": "C:\\Users\\PingFungYin\\source\\repos\\OVC.Demo.Queue.Reciever\\OVC.Demo.Queue.Reciever\\OVC.Demo.Queue.Reciever.csproj",
+        "packagesPath": "C:\\Users\\PingFungYin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PingFungYin\\source\\repos\\OVC.Demo.Queue.Reciever\\OVC.Demo.Queue.Reciever\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\PingFungYin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ifitech/00549907-9a7f-4f1c-8fa9-ec0cc781d98a/_packaging/TeamFeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Azure.ServiceBus": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
