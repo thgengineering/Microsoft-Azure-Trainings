@@ -35,20 +35,20 @@
 2. On the Topics page, select + Topic on the toolbar.
 3. Enter a name for the topic, and leave the other values with their defaults. Click Create. 
 
-<b>Create subscriptions to teh topic</b>
+<b>Create subscriptions for the topic</b>
 1. Select the topic that you created. 
 2. On the Service Bus Topic page, select Subscriptions from the left menu, and then select + Subscription on the toolbar.
 3. On the Create subscription page, enter a for name for the subscription, and then select Create.
 4. Repeat the previous step 2 more times. 
 
-<b>Send messsages to your Queue</b>
+<b>Send messsages to your Topic</b>
 1. Open up OVCDemo.Sender folder and open up the solution file 
 2. Open up the Program.cs file
 3. Inside the Program.cs file change the ServiceBusConnectionString and TopicName variable to reflect your Service Bus Topic
 4. Run the code 
 5. Check in your Service Bus Topic to see that your messages have been delivered to your subscription. 
 
-<b> Recieve Messages from your Queue</b>
+<b> Recieve Messages from your Topic</b>
 1. Open up the OVCDemo.Receiver folder and open up the solution file. 
 2. Open up the Program.cs file
 3. Inside the Program.cs file change the ServiceBusConnectionString, TopicName and SubscriptionName variable to reflect your Service Bus Topic
