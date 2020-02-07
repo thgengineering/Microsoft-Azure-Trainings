@@ -23,6 +23,28 @@
 
 	g. Select Create. The system now creates your namespace and enables it. You might have to wait several minutes as the system provisions resources for your account.
 	
-	<b>Get the Connection String</b>
-	1. Go to your resource group and select the service bus you just created 
-	2. Navigate to Shared Access Policies from the left panel 
+<b>Get the Connection String</b>
+1. Go to your resource group and select the service bus you just created 
+2. Navigate to Shared Access Policies from the left panel 
+3. In the Shared access policies screen, click RootManageSharedAccessKey.
+4. In the Policy: RootManageSharedAccessKey window, click the copy button next to Primary Connection String, to copy the connection string to your clipboard for later use. Paste this value into Notepad or some other temporary location.
+5. Repeat the previous step, copying and pasting the value of Primary key to a temporary location for later use.
+
+<b>Create a Queue in the Azure Portal</b>
+1. Select Queue in the left navigation 
+2. On the Queues page, select + Queue on the toolbar.
+3. Enter a name for the queue, and leave the other values with their defaults. Click Create. 
+
+<b>Send messsages to your Queue</b>
+1. Open up OVC.Demo.Queue.Sender folder and open up the solution file 
+2. Open up the Program.cs file
+3. Inside the Program.cs file change the ServiceBusConnectionString and QueueName variable to reflect your Service Bus Queue
+4. Run the code 
+5. Check in your Service Bus Queue to see that your messages have been delivered. 
+
+<b> Recieve Messages from your Queue</b>
+1. Open up the OVC.Demo.Queue.Reciever folder and open up the solution file. 
+2. Open up the Program.cs file
+3. Inside the Program.cs file change the ServiceBusConnectionString and QueueName variable to reflect your Service Bus Queue
+4. Run the code 
+5. Check in your Service Bus Queue to see that your messages have been received.
