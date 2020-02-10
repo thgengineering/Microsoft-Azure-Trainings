@@ -19,7 +19,7 @@
 1. Navigate to your storage account 
 2. Go to containers and click on + Container. Give a name for your container
 
-<b> Get the URL of your Storage<b> 
+<b> Get the URL of your Storage</b> 
 1. Navigate to your storage account 
 2. Click on containers 
 3. Next to your container name you will see ... towards the right hand side. Click on container properties.
